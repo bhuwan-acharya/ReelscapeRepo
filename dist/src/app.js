@@ -701,20 +701,20 @@ function initialLoading() {
   console.log('i am initialized')
   console.log(global.currentPage)
   switch (global.currentPage) {
-    case '/Reelscape/dist/index.html':
+    case '/':
       getPopularMovies()
       displaySlider()
       break
-    case '/Reelscape/dist/shows.html':
+    case '/shows.html':
       getPopularTVShows()
       break
-    case '/Reelscape/dist/tv-details.html':
+    case '/tv-details.html':
       getShowDetails()
       break
-    case '/Reelscape/dist/movie-details.html':
+    case '/movie-details.html':
       getMovieDetails()
       break
-    case '/Reelscape/dist/search.html':
+    case '/search.html':
       search()
 
       break
